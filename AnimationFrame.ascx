@@ -2,7 +2,7 @@
 <asp:MultiView ID="ViewSet" runat="server">
     <asp:View ID="View" runat="server">
         <div class="animationWrapper">
-            <iframe src="<%= URL %>"/>
+            <iframe src="<%= URL %>"></iframe>
         </div>
     </asp:View>
     <asp:View ID="Edit" runat="server">
